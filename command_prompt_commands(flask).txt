@@ -1,0 +1,9 @@
+Flask for windows user
+
+Difference between Terminal vs Command Prompt
+
+Terminal  		Command Prompt
+ls			dir
+pwd			echo %cd%
+export FLASK_APP=hello  set FLASK_APP=hello
+\			/

@@ -45,7 +45,7 @@ def redirect_to_url(code):
 				if 'url' in url[code].keys():
 					return redirect(url[code]['url'])
 				else:
-					return redirect(url_for('static', filename='user_files/'+url[code]['file']))
+					return redirect(url_for('static', filename='user_files/' + url[code]['file']))
 	return abort(404)
 
 @bp.errorhandler(404)
